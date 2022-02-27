@@ -16,12 +16,12 @@
 body{
     background-color: #335c67;
     color: #fff3b0;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 p{
     text-align: justify;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 h2{
@@ -48,15 +48,20 @@ a{
 
 .tamanhos-fonte{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .tamanhos-fonte2{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .tamanhos-fonte3{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 19px;
+}
+
+ul{
+    line-height: 30px;
+    font-style: italic;
 }
