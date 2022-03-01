@@ -5,13 +5,28 @@
     font-weight: lighter;
     text-align: center;
     color:#540b0e;
+    padding: 1px;
+    background-color: #9e2a2b;
 }
 
 #description{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     text-align: justify;
+    width: 48%;
+    height: 100px;
+    margin-left: 4%;
 }
+
+#foto {
+    float:right;
+    width: 40%;
+    padding: 15px 15px 15px 15px;
+    background-color: #e09f3e;
+    border-radius: 25% 25% 25% 0%; 
+   }
+
+   
 
 body{
     background-color: #335c67;
@@ -43,7 +58,11 @@ h2{
 
 a{
     text-decoration: none;
-    color: #fff3b0;
+    color: #e09f3e;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 .tamanhos-fonte{
@@ -64,4 +83,8 @@ a{
 ul{
     line-height: 30px;
     font-style: italic;
+}
+
+li:nth-child(odd) {
+    text-decoration: underline;
 }
