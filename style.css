@@ -21,7 +21,9 @@
     width: 40%;
     padding: 10px 10px 10px 10px;
     background-color: #e09f3e;
-}
+   }
+
+   
 
 body{
     background-color: #335c67;
@@ -78,4 +80,8 @@ a:hover {
 ul{
     line-height: 30px;
     font-style: italic;
+}
+
+li:nth-child(odd) {
+    text-decoration: underline;
 }
